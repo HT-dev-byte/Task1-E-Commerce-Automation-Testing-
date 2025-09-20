@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-20T17:13:48 IST" name="AutomationSuite" finished-at="2025-09-20T17:14:22 IST" duration-ms="34611">
+    <groups>
+    </groups>
+    <test started-at="2025-09-20T17:13:48 IST" name="AllTests" finished-at="2025-09-20T17:14:22 IST" duration-ms="34611">
+      <class name="tests.BuyOrderFunctionality">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.BuyOrderFunctionality@34123d65]" started-at="2025-09-20T17:13:48 IST" name="StartBrowser" finished-at="2025-09-20T17:13:52 IST" duration-ms="4365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="TestBuyOrderFunctionality()[pri:0, instance:tests.BuyOrderFunctionality@34123d65]" started-at="2025-09-20T17:13:52 IST" name="TestBuyOrderFunctionality" finished-at="2025-09-20T17:13:53 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBuyOrderFunctionality -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.BuyOrderFunctionality@34123d65]" started-at="2025-09-20T17:13:53 IST" name="CloseBrowser" finished-at="2025-09-20T17:13:53 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.BuyOrderFunctionality -->
+      <class name="tests.WishListWorksAfterLogin">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.WishListWorksAfterLogin@385c9627]" started-at="2025-09-20T17:14:16 IST" name="StartBrowser" finished-at="2025-09-20T17:14:19 IST" duration-ms="3115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="TestWishListWorksAfterLogin()[pri:0, instance:tests.WishListWorksAfterLogin@385c9627]" started-at="2025-09-20T17:14:19 IST" name="TestWishListWorksAfterLogin" finished-at="2025-09-20T17:14:22 IST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWishListWorksAfterLogin -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.WishListWorksAfterLogin@385c9627]" started-at="2025-09-20T17:14:22 IST" name="CloseBrowser" finished-at="2025-09-20T17:14:22 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.WishListWorksAfterLogin -->
+      <class name="tests.VerifyInvalidEmailAddressError">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.VerifyInvalidEmailAddressError@6989da5e]" started-at="2025-09-20T17:14:12 IST" name="StartBrowser" finished-at="2025-09-20T17:14:16 IST" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="TestVerifyInvalidEmailAddressError()[pri:0, instance:tests.VerifyInvalidEmailAddressError@6989da5e]" started-at="2025-09-20T17:14:16 IST" name="TestVerifyInvalidEmailAddressError" finished-at="2025-09-20T17:14:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVerifyInvalidEmailAddressError -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.VerifyInvalidEmailAddressError@6989da5e]" started-at="2025-09-20T17:14:16 IST" name="CloseBrowser" finished-at="2025-09-20T17:14:16 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.VerifyInvalidEmailAddressError -->
+      <class name="tests.UserRegistrationProcess">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.UserRegistrationProcess@3fc2959f]" started-at="2025-09-20T17:14:05 IST" name="StartBrowser" finished-at="2025-09-20T17:14:08 IST" duration-ms="3161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="TestUserRegistrationProcess()[pri:0, instance:tests.UserRegistrationProcess@3fc2959f]" started-at="2025-09-20T17:14:08 IST" name="TestUserRegistrationProcess" finished-at="2025-09-20T17:14:09 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserRegistrationProcess -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.UserRegistrationProcess@3fc2959f]" started-at="2025-09-20T17:14:09 IST" name="CloseBrowser" finished-at="2025-09-20T17:14:09 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.UserRegistrationProcess -->
+      <class name="tests.VerifyErrorMessagesForMandatoryFields">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.VerifyErrorMessagesForMandatoryFields@5aa9e4eb]" started-at="2025-09-20T17:14:09 IST" name="StartBrowser" finished-at="2025-09-20T17:14:12 IST" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="TestVerifyErrorMessagesForMandatoryFields()[pri:0, instance:tests.VerifyErrorMessagesForMandatoryFields@5aa9e4eb]" started-at="2025-09-20T17:14:12 IST" name="TestVerifyErrorMessagesForMandatoryFields" finished-at="2025-09-20T17:14:12 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVerifyErrorMessagesForMandatoryFields -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.VerifyErrorMessagesForMandatoryFields@5aa9e4eb]" started-at="2025-09-20T17:14:12 IST" name="CloseBrowser" finished-at="2025-09-20T17:14:12 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.VerifyErrorMessagesForMandatoryFields -->
+      <class name="tests.CorrectTotalPrice">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.CorrectTotalPrice@10683d9d]" started-at="2025-09-20T17:13:57 IST" name="StartBrowser" finished-at="2025-09-20T17:14:00 IST" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="TestCorrectTotalPrice()[pri:0, instance:tests.CorrectTotalPrice@10683d9d]" started-at="2025-09-20T17:14:00 IST" name="TestCorrectTotalPrice" finished-at="2025-09-20T17:14:05 IST" duration-ms="5047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCorrectTotalPrice -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.CorrectTotalPrice@10683d9d]" started-at="2025-09-20T17:14:05 IST" name="CloseBrowser" finished-at="2025-09-20T17:14:05 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.CorrectTotalPrice -->
+      <class name="tests.ClickFirstMenuLinkAndPrintPageTitle">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.ClickFirstMenuLinkAndPrintPageTitle@1f2586d6]" started-at="2025-09-20T17:13:53 IST" name="StartBrowser" finished-at="2025-09-20T17:13:57 IST" duration-ms="3716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="ClickFirstMenuLinkAndPrintPageTitleTest()[pri:0, instance:tests.ClickFirstMenuLinkAndPrintPageTitle@1f2586d6]" started-at="2025-09-20T17:13:57 IST" name="ClickFirstMenuLinkAndPrintPageTitleTest" finished-at="2025-09-20T17:13:57 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickFirstMenuLinkAndPrintPageTitleTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.ClickFirstMenuLinkAndPrintPageTitle@1f2586d6]" started-at="2025-09-20T17:13:57 IST" name="CloseBrowser" finished-at="2025-09-20T17:13:57 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.ClickFirstMenuLinkAndPrintPageTitle -->
+    </test> <!-- AllTests -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

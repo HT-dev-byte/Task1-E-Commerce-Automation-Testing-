@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AllTests(failed)">
+    <classes>
+      <class name="tests.CorrectTotalPrice">
+        <methods>
+          <include name="TestCorrectTotalPrice"/>
+          <include name="CloseBrowser"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- tests.CorrectTotalPrice -->
+      <class name="tests.WishListWorksAfterLogin">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="TestWishListWorksAfterLohin"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- tests.WishListWorksAfterLogin -->
+      <class name="tests.VerifyInvalidEmailAddressError">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="TestVerifyInvalidEmailAddressError"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- tests.VerifyInvalidEmailAddressError -->
+      <class name="tests.ClickFirstMenuLinkAndPrintPageTitle">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="ClickFirstMenuLinkAndPrintPageTitleTest"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- tests.ClickFirstMenuLinkAndPrintPageTitle -->
+      <class name="tests.BuyOrderFunctionality">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="TestBuyOrderFunctionality"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- tests.BuyOrderFunctionality -->
+      <class name="tests.VerifyErrorMessagesForMandatoryFields">
+        <methods>
+          <include name="TestVerifyErrorMessagesForMandatoryFields"/>
+          <include name="CloseBrowser"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- tests.VerifyErrorMessagesForMandatoryFields -->
+      <class name="tests.UserRegistrationProcess">
+        <methods>
+          <include name="TestUserRegistrationProcess"/>
+          <include name="StartBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- tests.UserRegistrationProcess -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
