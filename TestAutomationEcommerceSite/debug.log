@@ -1,1 +1,3 @@
 [1118/170139.765:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Note: Non-critical directory access warning observed during test execution; it did not impact browser startup or test performance
+
